@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 29f7bd2a339d7184faa92b80c3dac5f2
-timeCreated: 1452245421
+timeCreated: 1456205630
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -10,6 +10,9 @@ TextureImporter:
     21300006: Face_3
     21300008: Face_4
     21300010: Face_5
+    21300012: Face_6
+    21300014: Face_7
+    21300016: Face_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -32,7 +35,7 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: 0
@@ -50,7 +53,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -60,155 +63,297 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -4, y: -2}
-        - {x: -5, y: -5}
-        - {x: -1, y: -9}
-        - {x: 1, y: -9}
-        - {x: 5, y: -5}
-        - {x: 5, y: -3}
-        - {x: 2, y: -2}
-      - - {x: -6, y: 9}
-        - {x: -11, y: 9}
-        - {x: -11, y: -3}
-        - {x: -8, y: -4}
-        - {x: -5, y: -4}
-        - {x: -3, y: -1}
-        - {x: -3, y: 7}
-      - - {x: 3, y: 6}
-        - {x: 3, y: -1}
-        - {x: 4, y: -4}
-        - {x: 8, y: -4}
-        - {x: 11, y: -3}
-        - {x: 11, y: 6}
-        - {x: 8, y: 9}
-        - {x: 6, y: 9}
+      - - {x: -6, y: -6}
+        - {x: -8, y: -8}
+        - {x: -8, y: -10}
+        - {x: -2, y: -16}
+        - {x: 2, y: -16}
+        - {x: 8, y: -12}
+        - {x: 8, y: -6}
+      - - {x: -12, y: 16}
+        - {x: -20, y: 16}
+        - {x: -20, y: -5}
+        - {x: -16, y: -6}
+        - {x: -11, y: -6}
+        - {x: -8, y: -2}
+        - {x: -8, y: 13}
+      - - {x: 12, y: 16}
+        - {x: 8, y: 12}
+        - {x: 8, y: -2}
+        - {x: 12, y: -6}
+        - {x: 16, y: -6}
+        - {x: 20, y: -2}
+        - {x: 20, y: 12}
+        - {x: 16, y: 16}
     - name: Face_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -4, y: -2}
-        - {x: -5, y: -5}
-        - {x: -1, y: -9}
-        - {x: 1, y: -9}
-        - {x: 5, y: -5}
-        - {x: 5, y: -3}
-        - {x: 2, y: -2}
-      - - {x: -10, y: 5}
-        - {x: -11, y: 3}
-        - {x: -11, y: -3}
-        - {x: -9, y: -4}
-        - {x: -4, y: -4}
-        - {x: -3, y: -3}
-        - {x: -3, y: 5}
-      - - {x: 3, y: 3}
-        - {x: 3, y: -1}
-        - {x: 4, y: -4}
-        - {x: 8, y: -4}
-        - {x: 11, y: -3}
-        - {x: 11, y: 3}
-        - {x: 9, y: 5}
-        - {x: 5, y: 5}
+      - - {x: -6, y: -6}
+        - {x: -8, y: -8}
+        - {x: -8, y: -10}
+        - {x: -2, y: -16}
+        - {x: 2, y: -16}
+        - {x: 8, y: -12}
+        - {x: 8, y: -6}
+      - - {x: -20, y: 8}
+        - {x: -20, y: -5}
+        - {x: -16, y: -6}
+        - {x: -10, y: -6}
+        - {x: -8, y: -2}
+        - {x: -8, y: 8}
+      - - {x: 8, y: 8}
+        - {x: 8, y: -5}
+        - {x: 12, y: -6}
+        - {x: 19, y: -6}
+        - {x: 20, y: -5}
+        - {x: 20, y: 8}
     - name: Face_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -11, y: 2}
-        - {x: -11, y: -4}
-        - {x: -4, y: -9}
-        - {x: 4, y: -9}
-        - {x: 11, y: -4}
-        - {x: 11, y: 2}
+      - - {x: -6, y: -6}
+        - {x: -8, y: -8}
+        - {x: -8, y: -10}
+        - {x: -2, y: -16}
+        - {x: 2, y: -16}
+        - {x: 8, y: -12}
+        - {x: 8, y: -6}
+      - - {x: -20, y: 2}
+        - {x: -20, y: -4}
+        - {x: -19, y: -6}
+        - {x: -10, y: -6}
+        - {x: -8, y: -4}
+        - {x: -8, y: 2}
+      - - {x: 8, y: 2}
+        - {x: 8, y: -5}
+        - {x: 10, y: -6}
+        - {x: 18, y: -6}
+        - {x: 20, y: -5}
+        - {x: 20, y: 0}
+        - {x: 19, y: 2}
     - name: Face_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -12, y: 1}
-        - {x: -12, y: -1}
-        - {x: -11, y: -4}
-        - {x: -1, y: -9}
-        - {x: 4, y: -9}
-        - {x: 12, y: -3}
-        - {x: 12, y: 1}
+      - - {x: -6, y: -6}
+        - {x: -8, y: -8}
+        - {x: -8, y: -10}
+        - {x: -2, y: -16}
+        - {x: 2, y: -16}
+        - {x: 8, y: -12}
+        - {x: 8, y: -6}
+      - - {x: -20, y: 0}
+        - {x: -22, y: -2}
+        - {x: -22, y: -4}
+        - {x: -20, y: -6}
+        - {x: -8, y: -6}
+        - {x: -6, y: -4}
+        - {x: -6, y: -2}
+        - {x: -8, y: 0}
+      - - {x: 7, y: 0}
+        - {x: 6, y: -2}
+        - {x: 6, y: -5}
+        - {x: 8, y: -6}
+        - {x: 21, y: -6}
+        - {x: 22, y: -4}
+        - {x: 22, y: -1}
+        - {x: 20, y: 0}
     - name: Face_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 32
-        height: 32
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -12, y: 10}
-        - {x: -12, y: -6}
+      - - {x: -6, y: -6}
+        - {x: -8, y: -8}
         - {x: -8, y: -10}
-        - {x: 3, y: -10}
-        - {x: 12, y: -4}
-        - {x: 12, y: 5}
-        - {x: 10, y: 10}
+        - {x: -2, y: -16}
+        - {x: 2, y: -16}
+        - {x: 8, y: -12}
+        - {x: 8, y: -6}
+      - - {x: -20, y: 0}
+        - {x: -22, y: -2}
+        - {x: -22, y: -4}
+        - {x: -20, y: -6}
+        - {x: -8, y: -6}
+        - {x: -6, y: -4}
+        - {x: -6, y: -2}
+        - {x: -8, y: 0}
+      - - {x: 7, y: 0}
+        - {x: 6, y: -2}
+        - {x: 6, y: -5}
+        - {x: 8, y: -6}
+        - {x: 21, y: -6}
+        - {x: 22, y: -4}
+        - {x: 22, y: -1}
+        - {x: 20, y: 0}
     - name: Face_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -4, y: -2}
-        - {x: -5, y: -4}
-        - {x: -4, y: -7}
-        - {x: 2, y: -9}
+      - - {x: -6, y: -6}
+        - {x: -8, y: -8}
+        - {x: -8, y: -10}
+        - {x: -2, y: -16}
+        - {x: 5, y: -16}
+        - {x: 8, y: -11}
+        - {x: 8, y: -6}
+      - - {x: -9, y: 6}
+        - {x: -20, y: 6}
+        - {x: -22, y: 3}
+        - {x: -22, y: -4}
+        - {x: -21, y: -6}
+        - {x: -6, y: -6}
+        - {x: -4, y: -4}
+        - {x: -4, y: 4}
+      - - {x: 5, y: 6}
+        - {x: 4, y: 3}
+        - {x: 4, y: -6}
+        - {x: 22, y: -6}
+        - {x: 22, y: 3}
+        - {x: 16, y: 6}
+    - name: Face_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -8, y: -8}
+        - {x: -8, y: -10}
+        - {x: -2, y: -16}
+        - {x: 2, y: -16}
+        - {x: 8, y: -12}
+        - {x: 8, y: -8}
+        - {x: 7, y: -6}
+      - - {x: -9, y: 14}
+        - {x: -18, y: 14}
+        - {x: -22, y: 8}
+        - {x: -22, y: -5}
+        - {x: -20, y: -6}
+        - {x: -6, y: -6}
+        - {x: -4, y: -5}
+        - {x: -4, y: 8}
+      - - {x: 8, y: 14}
+        - {x: 4, y: 8}
+        - {x: 4, y: -6}
+        - {x: 21, y: -6}
+        - {x: 22, y: -5}
+        - {x: 22, y: 8}
+        - {x: 17, y: 14}
+    - name: Face_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -8, y: -8}
+        - {x: -8, y: -14}
+        - {x: -4, y: -18}
+        - {x: 4, y: -18}
+        - {x: 8, y: -14}
+        - {x: 8, y: -8}
+        - {x: 6, y: -6}
+      - - {x: -10, y: 18}
+        - {x: -18, y: 18}
+        - {x: -22, y: 12}
+        - {x: -22, y: -3}
+        - {x: -21, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: 12}
+        - {x: -5, y: 15}
+      - - {x: 8, y: 18}
+        - {x: 5, y: 15}
+        - {x: 4, y: 10}
+        - {x: 4, y: -4}
+        - {x: 22, y: -4}
+        - {x: 22, y: 17}
+        - {x: 16, y: 18}
+    - name: Face_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -6}
+        - {x: -8, y: -6}
+        - {x: -8, y: -12}
+        - {x: -3, y: -15}
+        - {x: 1, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: -10}
         - {x: 5, y: -8}
-        - {x: 5, y: -4}
-        - {x: 0, y: -2}
-      - - {x: -12, y: 8}
-        - {x: -12, y: -4}
-        - {x: -5, y: -4}
-        - {x: -2, y: -3}
-        - {x: -1, y: 1}
-        - {x: -1, y: 5}
-        - {x: -5, y: 8}
-      - - {x: 10, y: 8}
-        - {x: 6, y: 8}
-        - {x: 1, y: 4}
-        - {x: 1, y: 1}
-        - {x: 3, y: -3}
-        - {x: 8, y: -4}
-        - {x: 11, y: -4}
-        - {x: 12, y: -2}
-        - {x: 12, y: 7}
+      - - {x: -13, y: 14}
+        - {x: -22, y: 14}
+        - {x: -22, y: -6}
+        - {x: -15, y: -6}
+        - {x: -11, y: -5}
+        - {x: -4, y: 2}
+        - {x: -4, y: 9}
+      - - {x: 7, y: 14}
+        - {x: 4, y: 8}
+        - {x: 4, y: -3}
+        - {x: 11, y: -6}
+        - {x: 22, y: -6}
+        - {x: 22, y: 14}
     outline: []
   spritePackingTag: 
   userData: 
